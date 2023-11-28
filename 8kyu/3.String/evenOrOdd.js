@@ -6,5 +6,5 @@ function evenOrOdd(number) {
   }
 }
 
-console.log(evenOrOdd(2));
-console.log(evenOrOdd(3));
+console.log(evenOrOdd(2)); // Output: 'Even'
+console.log(evenOrOdd(3)); // Output: 'Odd'

@@ -20,6 +20,9 @@ console.log(isBetter); // true
 
 // Cara yang lebih simple
 
-function betterThanAverage(classPoints, yourPoints) {
+function betterThanAverages(classPoints, yourPoints) {
   return yourPoints > classPoints.reduce((a, b) => a + b, 0) / classPoints.length;
 }
+
+let isBetters = betterThanAverage(classPoints, yourPoints);
+console.log(isBetters); // true

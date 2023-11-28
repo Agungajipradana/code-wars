@@ -9,5 +9,5 @@ function digitize(n) {
   return String(n).split("").reverse().map(Number);
 }
 
-console.log(digitize(35231));
-console.log(digitize(0));
+console.log(digitize(35231)); // Output: [ 1, 3, 2, 5, 3 ]
+console.log(digitize(0)); // Output: [0]
